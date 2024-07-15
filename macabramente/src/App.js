@@ -1,4 +1,4 @@
-import church from './church.jpeg';
+import church from './church.png';
 import './App.css';
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
