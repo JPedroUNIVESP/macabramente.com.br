@@ -1,4 +1,5 @@
 import church from './church.png';
+import fundo from './fundo.jpg';
 import './App.css';
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
@@ -19,15 +20,20 @@ function App() {
       
       <header className="App-header">
       <title>Macabra Mente</title>
-        <img src={church} className="App-logo" alt="logo" />
-        <p className='smythe-regular-new'>
+
+
+        
+        <img src={fundo} className="App-logo" alt="logo" />
+
+
+        {/* <p className='smythe-regular-new'>
           Em breve
         </p>
         <a
           className="smythe-regular"
         >
           Macabra Mente
-        </a>
+        </a> */}
 
         <div style={styles.iconContainer}>
 
@@ -41,7 +47,7 @@ function App() {
 
         </div>
 
-
+        
       </header>
     </div>
   );
@@ -53,7 +59,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: '10px',
+    marginTop: '0px',
     margin: '20px',
     fontSize: '50px', // Tamanho dos ícones
   }
