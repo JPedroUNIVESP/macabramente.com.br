@@ -365,6 +365,10 @@ a {text-decoration: none;
     position: fixed;
     transform:translate(108px,0px);
     top:90%;
+
+    @media(max-width: 1010px){
+        top:70%;
+    }
     right:0;
     width:145px;
     overflow: hidden;
@@ -408,7 +412,7 @@ a {text-decoration: none;
 
 
 .photo-2 {
-    
+
     @media(max-width: 1010px){
         max-width: 70%;
         margin-top: -45px;
