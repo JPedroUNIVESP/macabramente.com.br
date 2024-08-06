@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Chapbook';
+    src: url('fonts/Chapbook-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha os itens no topo */
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Ajuste este valor conforme necessário para mover as imagens para cima ou para baixo */
+
+    @media(max-width: 1010px){
+    margin-top: -5px; /* Responsividade */
+    }
+
+    position: relative;
+}
+
+.centered-text {
+    text-align: center;
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: white; /* Ajuste a cor conforme necessário */
+    margin-bottom: 10px; /* Espaço entre o texto e a primeira imagem */
+
+
+    @media(max-width: 1010px){
+    margin-bottom: 0px; /* Responsividade */
+    }
+
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; /* Ajuste a margem conforme necessário */
+    position: relative;
+
+ 
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.small-image {
+    max-width: 60%; /* Define o tamanho menor para a primeira imagem */
+
+    @media(max-width: 1010px){
+    max-width: 35%; /* Responsividade */
+    }
+}
+
+.photo-2 {
+    position: relative;
+    margin-top: -90px; /* Ajuste este valor para o quanto deseja que FOTO-2 sobreponha FOTO-1 */
+    z-index: 1; /* Garante que FOTO-2 esteja acima da FOTO-1 */
+    max-width: 60%;
+
+    @media(max-width: 1010px){
+    margin-top: -45px; /* Responsividade */
+      max-width: 70%;
+    }
+}
+
+.photo-3 {
+    position: relative;
+    margin-top: -90px; /* Ajuste este valor para o quanto deseja que FOTO-3 sobreponha FOTO-2 */
+    z-index: 2; /* Garante que FOTO-3 esteja acima da FOTO-2 */
+    max-width: 65%;
+
+    @media(max-width: 1010px){
+    margin-top: -45px; /* Responsividade */
+    max-width: 55%; /* Define o tamanho menor para a primeira imagem */
+    }
+}
+
+.photo-4-container{
+
+margin-right: 20px;
+
+    @media(max-width: 1010px){
+    max-width: 70%; /* Define o tamanho menor para a primeira imagem */
+    }
+
+}
+
+.bottom-row {
+    display: flex;
+    align-items: center;
+    margin-top: 0px; /* Espaço acima da nova linha de imagens e parágrafo */
+
+    @media(max-width: 1010px){
+    max-width: 20%; /* Define o tamanho menor para a primeira imagem */
+    }
+
+}
+
+.bottom-row2 {
+    display: flex;
+    align-items: center;
+    margin-top: -30px; /* Espaço acima da nova linha de imagens e parágrafo */
+
+}
+
+
+.session-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #fcc0b4; /* Ajuste a cor conforme necessário */
+    margin-left: 0px; /* Espaço entre o parágrafo e as imagens */
+    text-decoration: underline;
+
+    @media(max-width: 1010px){
+    font-size: 20px; /* Responsividade */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+}
+
+.paragrafo-1 {
+
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 5px;
+
+    @media(max-width: 1010px){
+    font-size: 15px; /* Responsividade */
+    margin-top: 15px;
+    }
+
+}
+
+
+
+.text-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 35px; /* Espaço acima da nova seção */
+    width: 100%; /* Ocupa toda a largura disponível */
+    margin-right: 0%;
+
+
+    @media(max-width: 1010px){
+
+        align-items: center;
+        width: 100%;
+	margin-top: 30px;
+
+    
+    }
+}
+
+.left-text {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    flex: 1;
+    text-align: right;
+    color: white;
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+    border-right: solid;
+    padding-right: 20px;
+    @media(max-width: 1010px){
+    font-size: 15px; /* Responsividade */
+    }
+}
+
+.italic-text {
+    font-style: italic;
+    margin-top: 20px; /* Espaço acima do texto "Faça terapia" */
+    font-weight: bold;
+
+    @media(max-width: 1010px){
+    margin-top: 5px; /* Responsividade */
+    margin-bottom: 5px; /* Responsividade */
+    }
+}
+
+.right-links {
+    flex: 1;
+    text-align: left;
+    margin-left: 5px; /* Espaço entre a borda e os links */
+}
+
+.right-links ul {
+    list-style-type: none;
+    margin-top: 50px;
+
+    @media(max-width: 1010px){
+    padding-left: 15px;
+    margin-top: 0px;
+    }
+}
+
+.right-links li {
+    font-family: "Chapbook", Times, serif;
+    background-color: black;
+    color: #fcc0b4; /* Cor do texto dos links */
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+
+    @media(max-width: 1010px){
+    font-size: 20px; /* Responsividade */
+    padding: 2px;
+    }
+
+
+    list-style-type: disc;
+}
+
+
+/* Nova seção "Sobre Mim" */
+
+
+
+.sobre-mim-container {
+    
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    text-align: justify; /* Centraliza o texto na div */
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    @media(max-width: 1010px){
+        width: 80%; /* Responsividade */
+        }
+
+
+
+}
+
+
+.sobre-mim-title {
+    
+    font-family: "Lacquer", sans-serif;
+    font-size: 150px;
+    text-align: center; 
+    color: #fcc0b4;
+    line-height: 0.8; /* Ajusta o espaçamento entre linhas */
+    margin: 0;
+    padding-bottom: 2%;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgb(253, 93, 93), 0 0 20px rgb(253, 93, 93), 0 0 30px rgb(253, 93, 93), 0 0 40px rgb(253, 93, 93); /* Efeito de brilho vermelho */
+
+    
+
+    @media(max-width: 1010px){
+        font-size: 90px; /* Responsividade */
+        }
+
+}
+
+.sobre-mim-container p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin: 10px 0;
+
+    @media(max-width: 1010px){
+        font-size: 15px; /* Responsividade */
+        }
+}
+
+
+.strong {
+
+    color: #fcc0b4; /* Cor do texto dos links */
+    
+}
+
+a {text-decoration: none;
+    color: inherit;}
+
+
+.sobre-mim-title2 {
+    font-family: "Lacquer", sans-serif;
+    font-size: 130px;
+    text-align: center; 
+    color: #fcc0b4;
+    line-height: 0.8; /* Ajusta o espaçamento entre linhas */
+    margin: 0;
+    padding-bottom: 10%;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgb(253, 93, 93), 0 0 20px rgb(253, 93, 93), 0 0 30px rgb(253, 93, 93), 0 0 40px rgb(253, 93, 93); /* Efeito de brilho vermelho */
+
+    @media(max-width: 1010px){
+        font-size: 80px; /* Responsividade */
+        }
+
+
+
+}
+
+
+
+.sobre-mim-title3 {
+    font-family: "Lacquer", sans-serif;
+    font-size: 130px;
+    text-align: center; 
+    color: #fcc0b4;
+    line-height: 0.8; /* Ajusta o espaçamento entre linhas */
+    margin: 0;
+    padding-bottom: 10%;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgb(253, 93, 93), 0 0 20px rgb(253, 93, 93), 0 0 30px rgb(253, 93, 93), 0 0 40px rgb(253, 93, 93); /* Efeito de brilho vermelho */
+
+    @media(max-width: 1010px){
+        font-size: 80px; /* Responsividade */
+        }
+
+
+
+}
+
+.ul-psicoterapia{
+    padding-left: 0;
+}
+.ul-psicoterapia li{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    padding: 0;
+    margin-bottom: 20px;
+
+
+    @media(max-width: 1010px){
+        font-size: 15px; /* Responsividade */
+        }
+
+}
+
+.italico{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-align: center
+}
+
+.instargram-title3{
+    font-family: "Chapbook", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.whats-float {
+    position: fixed;
+    transform:translate(108px,0px);
+    top:90%;
+    right:0;
+    width:145px;
+    overflow: hidden;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 4px 0 0 4px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    vertical-align: middle
+}
+.whats-float a span {
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    position: absolute;
+    line-height: 16px;
+    font-weight: bolder;
+}
+
+.whats-float i {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    padding: 10px;
+    transform:rotate(0deg);
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+
+}
+
+.whats-float:hover {
+    color: #FFFFFF;
+    transform:translate(0px,0px);
+}
+
+.whats-float:hover i  {
+    transform:rotate(360deg);
+}
