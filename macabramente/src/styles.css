@@ -49,9 +49,6 @@ body {
     align-items: center;
     margin: 10px 0; /* Ajuste a margem conforme necessário */
     position: relative;
-
- 
-
 }
 
 img {
@@ -74,11 +71,9 @@ img {
     max-width: 60%;
 
     @media(max-width: 1010px){
-    /*margin-top: -45px;  Responsividade */
-    /* margin-top: -45px;
-      background-color: red; */
-      max-width: 70%;
-      margin-top: -45px;
+        background-color: red;
+        max-width: 70%;
+        margin-top: -45px;
     }
 }
 
