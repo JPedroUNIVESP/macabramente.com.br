@@ -71,7 +71,6 @@ img {
     max-width: 60%;
 
     @media(max-width: 1010px){
-        background-color: red;
         max-width: 70%;
         margin-top: -45px;
     }
@@ -404,4 +403,14 @@ a {text-decoration: none;
 
 .whats-float:hover i  {
     transform:rotate(360deg);
+}
+
+
+
+.photo-2 {
+    
+    @media(max-width: 1010px){
+        max-width: 70%;
+        margin-top: -45px;
+    }
 }
