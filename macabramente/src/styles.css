@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Chapbook';
-    src: url('fonts/Chapbook-Regular.otf') format('opentype');
+    src: url('./fonts/Chapbook-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -74,7 +74,9 @@ img {
     max-width: 60%;
 
     @media(max-width: 1010px){
-    margin-top: -45px; /* Responsividade */
+    /*margin-top: -45px;  Responsividade */
+    /* margin-top: -45px;
+      background-color: red; */
       max-width: 70%;
     }
 }
