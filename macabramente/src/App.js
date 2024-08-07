@@ -86,7 +86,7 @@ const App = () => {
       <div class="whats-float">
     <a href="https://api.whatsapp.com/send/?phone=5519991320789&text&type=phone_number&app_absent=0"
        target="_blank">
-        <i class="fa fa-whatsapp"></i><span>WhatsApp<br></br><small>Carol Marangoni</small></span>
+        <i class="fa fa-whatsapp"></i><span>WhatsApp<br></br><small class="whatsapp-nome">Carol Marangoni</small></span>
     </a>
 </div>
 
