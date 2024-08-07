@@ -418,3 +418,14 @@ a {text-decoration: none;
         margin-top: -45px;
     }
 }
+
+
+
+.whatsapp-nome{
+    font-size: 15px;
+    @media(max-width: 1010px){
+        font-size: 10px;
+    }
+
+
+}
