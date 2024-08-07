@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>   
       <div className="images-container">
-        <p className="centered-text paragrafo-1">MMXXV</p>
+        <p className="centered-text paragrafo-1">MMXXIV</p>
         <div className="image-container">
           <img src={foto1} alt="Foto 1 Centralizada" className="small-image" />
         </div>
