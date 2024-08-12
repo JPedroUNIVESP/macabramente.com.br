@@ -6,6 +6,8 @@ import foto3 from './FOTO-3.png';
 import instagramicon from './Instagram-icon.png';
 import whatsappicon from './whatsapp-icon.png';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import InstagramEmbed from './InstagramEmbed'; // Certifique-se de que o caminho está correto
+
 
 const App = () => {
   return (
@@ -81,12 +83,16 @@ const App = () => {
         <div className="instargram-title3"><a href="https://www.instagram.com/macabra.mente/" >@macabra.mente</a></div>
         <p>O meu Instagram nasceu de duas paixões: a odisseia da complexidade da mente humana e o gênero terror</p>
         <p>Faço desde a parte criativa até a escrita! Meu objetivo por lá é poder me arriscar com a minha estética, proporcionar reflexões e me comunicar da forma mais acessível possível. Afinal, autenticidade gera identificação</p>
+      
+        <InstagramEmbed />
       </div>
 
-      <div class="whats-float">
+
+      
+      <div className="whats-float">
     <a href="https://api.whatsapp.com/send/?phone=5519991320789&text&type=phone_number&app_absent=0"
        target="_blank">
-        <i class="fa fa-whatsapp"></i><span>WhatsApp<br></br><small class="whatsapp-nome">Carol Marangoni</small></span>
+        <i className="fa fa-whatsapp"></i><span>WhatsApp<br></br><small className="whatsapp-nome">Carol Marangoni</small></span>
     </a>
 </div>
 
