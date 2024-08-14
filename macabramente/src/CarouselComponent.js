@@ -2,10 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import foto1 from './car1.jpeg';
-import foto2 from './car2.jpeg';
+import foto1 from './car1.png';
+import foto2 from './car2.png';
 
-import foto4 from './ca4.jpeg';
+import foto4 from './ca4.png';
 
 import './CarouselStyles.css'; // Substitua com o caminho do seu arquivo CSS
 
