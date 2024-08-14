@@ -7,7 +7,7 @@ import instagramicon from './Instagram-icon.png';
 import whatsappicon from './whatsapp-icon.png';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import InstagramEmbed from './InstagramEmbed'; // Certifique-se de que o caminho está correto
-
+import CarouselComponent from './CarouselComponent'; // Certifique-se de que o caminho está correto
 
 const App = () => {
   return (
@@ -64,7 +64,9 @@ const App = () => {
         <p>Além de ser a responsável criativa pelo Instagram <a href="https://www.instagram.com/macabra.mente/" ><i className='strong'>@macabra.mente</i></a>, trabalho principalmente com psicoterapia na modalidade online ou presencial. Embora minha clínica fique localizada na cidade de Americana SP, é através da terapia online que consigo atender pacientes de qualquer lugar do Brasil ou fora dele.</p>
         <p>Tal qual meu Instagram, meu site também carrega minha identidade visual um pouco peculiar e ousada. Amo arte, livros, games e filmes! Sempre tento correlacionar tudo isso com o universo da Psicologia.</p>
       </div>
-
+      <div>
+      <CarouselComponent/>
+      </div>
       <div id="psicoterapia" className="sobre-mim-container">
         <h1 className="sobre-mim-title2">PSICO<br />TERAPIA<br /></h1>
         <div className="instargram-title3">online/presencial</div>
@@ -85,10 +87,11 @@ const App = () => {
         <p>Faço desde a parte criativa até a escrita! Meu objetivo por lá é poder me arriscar com a minha estética, proporcionar reflexões e me comunicar da forma mais acessível possível. Afinal, autenticidade gera identificação</p>
       
         <InstagramEmbed />
+
+
+
       </div>
 
-
-      
       <div className="whats-float">
     <a href="https://api.whatsapp.com/send/?phone=5519991320789&text&type=phone_number&app_absent=0"
        target="_blank">
