@@ -1,0 +1,21 @@
+/* Estilos para os dots do react-slick */
+.slick-dots li button:before {
+    color: rgb(255, 255, 255); /* Mude essa cor para o que preferir */
+}
+
+.slick-dots li.slick-active button:before {
+    color: red; /* Cor da bolinha ativa */
+}
+
+
+.carousel-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1010px) {
+    .carousel-container {
+        max-width: 250px;
+    }
+}
