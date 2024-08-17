@@ -13,7 +13,8 @@ body {
     align-items: flex-start; /* Alinha os itens no topo */
     height: 100vh;
     margin: 0;
-    background-image: url('./background.png');
+    background-image: url('./background2.png');
+    background-size: 100% 100%; /* 50% da largura e 50% da altura */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -443,7 +444,8 @@ a {text-decoration: none;
 
 
 .background-container {
-    background-image: url('./background.png');
+    background-image: url('./background2.png');
+    background-size: 100% 100%; /* 50% da largura e 50% da altura */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
