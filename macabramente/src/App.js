@@ -8,10 +8,12 @@ import whatsappicon from './whatsapp-icon.png';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import InstagramEmbed from './InstagramEmbed'; // Certifique-se de que o caminho está correto
 import CarouselComponent from './CarouselComponent'; // Certifique-se de que o caminho está correto
+import Footer from './Footer';
+
 
 const App = () => {
   return (
-    <div>   
+    <div className="background-container">   
       <div className="images-container">
         <p className="centered-text paragrafo-1">MMXXIV</p>
         <div className="image-container">
@@ -85,10 +87,10 @@ const App = () => {
         <div className="instargram-title3"><a href="https://www.instagram.com/macabra.mente/" >@macabra.mente</a></div>
         <p>O meu Instagram nasceu de duas paixões: a odisseia da complexidade da mente humana e o gênero terror</p>
         <p>Faço desde a parte criativa até a escrita! Meu objetivo por lá é poder me arriscar com a minha estética, proporcionar reflexões e me comunicar da forma mais acessível possível. Afinal, autenticidade gera identificação</p>
-      
+        
         <InstagramEmbed />
 
-
+       
 
       </div>
 
@@ -97,8 +99,13 @@ const App = () => {
        target="_blank">
         <i className="fa fa-whatsapp"></i><span>WhatsApp<br></br><small className="whatsapp-nome">Carol Marangoni</small></span>
     </a>
+
+
+
+
 </div>
 
+{/* <Footer /> */}
     </div>
   );
 }
