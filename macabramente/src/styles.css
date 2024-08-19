@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100%;
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa */
     
 }
 
@@ -440,16 +441,3 @@ a {text-decoration: none;
 .instagram-container{
     margin-top: 20px;
 }
-
-
-
-.background-container {
-    background-image: url('./background2.png');
-    background-size: 100% 100%; /* 50% da largura e 50% da altura */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    width: 100%;
-  }
-  
