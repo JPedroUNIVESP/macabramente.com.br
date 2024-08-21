@@ -85,8 +85,9 @@ const App = () => {
       <div id="macabra-mente" className="sobre-mim-container">
         <h1 className="sobre-mim-title3">MACABRA<br />MENTE<br /></h1>
         <div className="instargram-title3"><a href="https://www.instagram.com/macabra.mente/" >@macabra.mente</a></div>
-        <p>O meu Instagram nasceu de duas paixões: a odisseia da complexidade da mente humana e o gênero terror</p>
-        <p>Faço desde a parte criativa até a escrita! Meu objetivo por lá é poder me arriscar com a minha estética, proporcionar reflexões e me comunicar da forma mais acessível possível. Afinal, autenticidade gera identificação</p>
+        <p>O meu instagram nasceu de duas paixões: a odisseia da complexidade da mente humana e o gênero terror.</p>
+        <p>Decidi ousar e fazer algo diferente do que esperam de um perfil de uma psicóloga </p>
+        <p>Faço desde a parte criativa até a escrita! Meu objetivo por lá é poder me arriscar com a minha estética (afinal, autenticidade gera identificação), proporcionar reflexões e me comunicar da forma mais acessível possível.</p>
         
         <InstagramEmbed />
 
