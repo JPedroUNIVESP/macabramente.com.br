@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="background-container">   
       <div className="images-container">
-        <p className="centered-text paragrafo-1">MMXXIV</p>
+        <p className="centered-text paragrafo-1">MMXXV</p>
         <div className="image-container">
           <img src={foto1} alt="Foto 1 Centralizada" className="small-image" />
         </div>
@@ -61,7 +61,7 @@ const App = () => {
 
       <div id="sobre-mim" className="sobre-mim-container">
         <h1 className="sobre-mim-title">SOBRE<br />MIM<br /></h1>
-        <p>Olá! Me chamo Carol, tenho 27 anos, sou <strong className='strong'>Psicóloga clínica e pós-graduada em Terapia cognitivo-comportamental.</strong></p>
+        <p>Olá! Me chamo Carol, tenho 27 anos, sou <strong className='strong'>Psicóloga clínica, pós-graduada em Terapia Cognitivo-Comportamental e atualmente estou cursando uma segunda pós-graduação em Terapias Cognitivo-Comportamentais Contextuais.</strong></p>
         <p>Desde a adolescência sempre me interessei pela mente e o comportamento humano, logo a área clínica me chamou atenção. Foi no estágio da graduação que me apaixonei pelo processo da psicoterapia e decidi onde atuar.</p>
         <p>Além de ser a responsável criativa pelo Instagram <a href="https://www.instagram.com/macabra.mente/" ><i className='strong'>@macabra.mente</i></a>, trabalho principalmente com psicoterapia na modalidade online ou presencial. Embora minha clínica fique localizada na cidade de Americana SP, é através da terapia online que consigo atender pacientes de qualquer lugar do Brasil ou fora dele.</p>
         <p>Tal qual meu Instagram, meu site também carrega minha identidade visual um pouco peculiar e ousada. Amo arte, livros, games e filmes! Sempre tento correlacionar tudo isso com o universo da Psicologia.</p>
